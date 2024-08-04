@@ -8,10 +8,10 @@ const endAlignment = Alignment.bottomRight;
 //class in the dart aka Custome widget. GradientContainer class extends
 //StatelessWidget, meaning its state cannot change over time.
 class GradientContainer extends StatelessWidget {
-  // GradientContainer({key}): super(key: key);
+  // Default constructor
   const GradientContainer(this.colorChanger1, this.colorChanger2, {super.key});
 
-  //the class can have multiple constructor seprated by dot(.)
+  //Named constructor
   const GradientContainer.bgColor({super.key})
       : colorChanger1 = Colors.deepPurple,
         colorChanger2 = Colors.indigo;
